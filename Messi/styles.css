@@ -1,0 +1,262 @@
+body{
+    margin: 0px; 
+    background-color: pink;
+}
+header{
+    background-image: url('IMG/messiheader.jpg');
+    padding: 141px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 165px;
+}
+header div h1{
+   font-size: 80px;
+   margin: 100px 500px -30px -80px;
+   background-color: white;
+   border-radius: 30px;
+   background-image: url('IMG/colorful.jpg');
+   background-position: center;
+   text-align: center;
+   color: white;
+}
+header div img{
+   width: 100px;
+   height: 100px;
+   margin-top: -60px;
+   float:right
+}
+ div.ll{
+  margin-top: -20px;
+  font-size: 0px;
+}
+section.black{
+    padding: 50px;
+    background-color: black;
+    margin-top: 0px;
+}
+
+ div.button a{
+    margin: -35px 350px ;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-image: url('IMG/colorful.jpg');
+    border-radius:  30px;
+    background-position: center;
+    font-size: 60px;
+    border: 1px green;
+    box-shadow: blue 5px 5px 5px;
+    float: right;
+}
+div.button a.button:hover{
+    color: rgb(255, 0, 170);
+}
+section.blank{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 30px;
+    font-family:sans-serif;
+    background-image: url('IMG/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section.bio{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 252px;
+    max-height: 26px;
+    background-image: url('IMG/messi2.jpg');
+    color: white;
+}
+section.bio div.link {
+    font-size: 0px;
+    margin-top: -250px;
+   text-align: right;
+  }
+
+section.bio div.messi {
+  margin-left: -240px;
+  margin-top: 350px;
+}
+section.bio div.messi h6{
+    font-size: 20px;
+    margin-bottom: -20px;
+    text-decoration: underline grey;
+  }
+  section.bio div.messi h1{
+    font-size: 35px;
+    margin-bottom: -17px;
+  }
+  section.bio div.messi h3{
+    font-size: 25px;
+  }
+nav{
+  text-align: center;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+nav ul li{
+  margin: 15px 40px 15px 40px;
+  font-size: 25px;
+  display: inline-block;
+  padding: 15px;
+  background-image: url('IMG/colorful.jpg');
+  background-position: center;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: blue 3px 5px 2px;
+  border:2px solid black;
+}
+nav ul li a.nav{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a.nav:hover{
+  color: rgb(255, 0, 170);
+}
+
+section.blanktwo{
+  font-size: 0px;
+}
+
+
+
+
+
+
+section.biography, section.earlylife, .clubcareer, .internationalcareer, .awards{
+  background-position: center;
+  background-image: url('IMG/messibg.png');
+  height: 570px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
+
+section.biography h1, section.earlylife h1, .clubcareer h1, .internationalcareer h1, .awards h1{
+  position:absolute;
+  top: -5px;
+  font-size: 60px;
+  text-shadow: black 5px 5px 5px;
+  color: white;
+}
+section.biography div.paragraph h2, section.earlylife div.paragraph h2, .clubcareer div.paragraph h2, .internationalcareer div.paragraph h2, .awards div.paragraph h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline black;
+  text-shadow: grey 2px 2px 2px;
+}
+
+section.biography div.paragraph, section.earlylife div.paragraph, .clubcareer div.paragraph, .internationalcareer div.paragraph, .awards div.paragraph{
+  border: white solid 2px;
+  padding: 10px;
+  margin-left: 30px;
+  box-shadow: black 10px 10px 10px;
+  font-weight: 700;
+}
+section.biography div.paragraph p, section.earlylife div.paragraph p, .clubcareer div.paragraph p,.internationalcareer div.paragraph p, .awards div.paragraph p{
+  text-align: justify;
+  color: white;
+}
+
+
+
+
+.blackthree{
+  background-color:black;
+  height: 80px;
+}
+
+
+/*image*/
+
+section.biography div.img img{
+  height: 400px;
+  box-shadow: 5px 5px 5px #000; 
+}
+
+section.earlylife div.img img{
+  height: 400px;
+  width: 575px;
+  box-shadow: 5px 5px 5px #000; 
+}
+
+section.clubcareer div.img img{
+  height: 400px;
+  width: 575px;
+  box-shadow: 5px 5px 5px #000; 
+}
+section.internationalcareer div.img img{
+  height: 400px;
+  width: 575px;
+  box-shadow: 5px 5px 5px #000; 
+}
+section.awards div.img img{
+  height: 400px;
+  width: 575px;
+  box-shadow: 5px 5px 5px #000; 
+}
+section.photos{
+  position: relative;
+  background-image: url('IMG/messibg.png');
+  height: 630px;
+}
+section.photos h1{
+  
+  position: absolute;
+  font-size: 60px;
+  text-shadow: black 5px 5px 5px;
+  color: white;
+  left: 500px;
+}
+section.photos figure.pic{
+  position: absolute;
+  top: 100px;
+  left: -10px;
+}
+
+section.photos div{
+  display: inline-block;
+
+}
+section.photos div img{
+  height: 155px; 
+  border: white solid 2px;
+  box-shadow: black 2px 2px 2px;
+}
+section.photos div.tt{
+  margin-left: 50px;
+}
+section.photos div.dd{
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+footer{
+  position: relative;
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+}
+footer h1{
+  color: white;
+}
+footer img{
+  margin: 20px;
+}
